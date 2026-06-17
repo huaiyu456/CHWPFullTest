@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+*.fmu binary
+*.mos text eol=lf

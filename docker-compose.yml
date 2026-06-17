@@ -1,0 +1,14 @@
+services:
+  chwplantfulltest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chwplantfulltest:latest
+    working_dir: /app
+    volumes:
+      - ./results:/app/results
+      - ./runtime:/app/runtime
+      - ./configs:/app/configs:ro
+      - ./user_controllers:/app/user_controllers:ro
+    environment:
+      PYTHONPATH: /app/src:/app/user_controllers

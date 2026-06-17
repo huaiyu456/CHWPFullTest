@@ -1,0 +1,18 @@
+[project]
+name = "chwplantfulltest"
+version = "0.1.0"
+description = "Python-FMU chilled water plant virtual test platform for controller benchmarking."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Huaiyu Yang"},
+  {name = "Guanjing Lin"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

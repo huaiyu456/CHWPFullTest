@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "CHWPlantFullTest"
+message: "If you use this software, please cite the software repository. The associated manuscript is currently under review and citation information will be added after publication."
+type: software
+authors:
+  - family-names: "Yang"
+    given-names: "Huaiyu"
+    affiliation: "Institute of Future Human Habitats, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen 518055, PR China"
+  - family-names: "Lin"
+    given-names: "Guanjing"
+    affiliation: "Institute of Future Human Habitats, Tsinghua Shenzhen International Graduate School, Tsinghua University, Shenzhen 518055, PR China"
+year: 2026
+repository-code: "https://github.com/huaiyu456/CHWPFullTest"
+url: "https://github.com/huaiyu456/CHWPFullTest"
+abstract: "A Python-FMU virtual test platform for benchmarking chilled water plant control strategies under fault-free and faulty operating conditions."
+preferred-citation:
+  type: article
+  title: "Associated manuscript under review"
+  authors:
+    - family-names: "Yang"
+      given-names: "Huaiyu"
+    - family-names: "Lin"
+      given-names: "Guanjing"
+  year: 2026
+  notes: "Manuscript under review; citation information will be added after publication."

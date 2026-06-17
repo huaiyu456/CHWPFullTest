@@ -1,0 +1,7 @@
+numpy
+pytest
+PyYAML
+
+# FMU execution dependency. Conda-forge is recommended for installation:
+# conda install -c conda-forge pyfmi
+pyfmi
