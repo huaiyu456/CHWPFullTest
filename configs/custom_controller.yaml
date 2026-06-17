@@ -1,0 +1,15 @@
+name: custom_controller_fault_free
+description: Example scenario using an externally supplied controller class.
+controller: Default_RBC
+mode: test
+start_time: 0
+step_size: 600
+num_steps: 12
+results_dir: results
+controller_path: user_controllers
+controller_module: sample_controller
+controller_class: SampleController
+controller_params:
+  tset_k: 0
+  chw_input: 0
+faults: {}

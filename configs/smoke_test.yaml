@@ -1,0 +1,9 @@
+name: smoke_test
+description: Short fault-free scenario for installation and Docker smoke testing.
+controller: Default_RBC
+mode: test
+start_time: 0
+step_size: 600
+num_steps: 12
+results_dir: results
+faults: {}

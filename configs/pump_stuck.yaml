@@ -1,0 +1,12 @@
+name: pump_stuck
+description: Built-in RBC baseline with CHW pump-stuck fault.
+controller: Default_RBC
+mode: test
+start_time: 16934400
+step_size: 600
+num_steps: 12
+results_dir: results
+faults:
+  FaultCHWPumpStuck.k:
+    - [0, 30000]
+    - [3600, 30000]
